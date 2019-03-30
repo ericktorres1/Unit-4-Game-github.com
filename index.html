@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <title>Crystal Game</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1 class="text-color">Crystal Game</h1>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-color">
+                You will be given a random number at the start of the game <br>
+                There are four crystals below.  By clicking on a crystal you will add as specific amout of points to your total score.<br>
+                You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.<br>
+                The value of each crystal is hidden from you unitl you click on it.<br>
+                Each time when the game starts, the game will change the values of each crystal. 
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 text-center text-color">
+            <p id="number">Number</p>
+        </div>
+        <div class="col-md-4 text-color text-left">
+            <p id="win">Wins: </p>
+            <p id="lose">Loses: </p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row crystals">
+        <!-- <button class="button-bg" value="1">
+
+            <img src="assets/images/1.png">
+        </button>
+        <button class="button-bg" id="2">
+            <img src="assets/images/2.png">
+        </button>
+        <button class="button-bg" id="3">
+            <img src="assets/images/3.png">
+        </button>
+        <button class="button-bg" id="4">
+             <img src="assets/images/4.png">
+        </button> -->
+    </div>
+</div>  
+<div class="container">
+    <p>Total: </p>
+    <p id="total"></p>
+</div>  
+</body>
+<script src="assets/javascript/game.js"></script>
+</html>

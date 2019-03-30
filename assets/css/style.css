@@ -1,0 +1,21 @@
+body {
+    background-image: url('../images/background.jpg');
+    opacity: .9;
+    color: white;
+}
+
+.text-color {
+    color: white;
+    text-align: center;
+}
+
+.button-bg {
+    background-color: transparent;
+    border: none;
+    opacity: none;
+}
+
+.container p {
+    color: white;
+    text-align: center;
+}
